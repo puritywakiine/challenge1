@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Set the width of the page to the device width with a zoom of 1.0-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/components.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <title>SOL::Register</title>
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li id="brand">
+            <img src="images/sol-logo.png">
+            <span>Stack Overflow Lite</span>
+        </li>
+        <li class="right"><a href="index.html">Landing</a></li>
+        <li class="right"><a href="login.html">Login</a></li>
+        <li class="right"><a href="register.html">Register</a></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-m6 col-m-offset-3">
+            <div class="panel">
+                <div class="panel-heading">Register</div>
+                <div class="panel-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-m4">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col-m8">
+                                <input type="text" required id="name" name="name" placeholder="Enter your name...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-m4">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col-m8">
+                                <input type="email" required id="email" name="email" placeholder="Enter your email...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-m4">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="col-m8">
+                                <input type="password"
+                                       required
+                                       id="password"
+                                       name="password"
+                                       placeholder="Enter your password...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-m4">
+                                <label for="password_conf">Confirm password</label>
+                            </div>
+                            <div class="col-m8">
+                                <input type="password"
+                                       required
+                                       id="password_conf"
+                                       name="password_conf"
+                                       placeholder="Confirm your password...">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-m12" style="float: right">
+                                <input type="submit" value="Register">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
